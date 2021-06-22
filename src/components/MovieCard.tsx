@@ -1,5 +1,4 @@
 import { Star, Clock } from 'react-feather';
-
 import '../styles/movie-card.scss';
 
 interface MovieCardProps {
@@ -16,7 +15,6 @@ export function MovieCard(props: MovieCardProps) {
         src={props.poster}
         alt={props.title}
       />
-
       <div>
         <div className="movie-info">
           <span>{props.title}</span>
